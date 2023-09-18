@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "cellular-automata"
+version = "0.1.0"
+description = ""
+authors = ["Blackgolyb <andrejomelnickij@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "cellular_automata"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pyqt5 = "^5.15.9"
+numba = "^0.57.1"
+pillow = "^10.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
